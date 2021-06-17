@@ -1,4 +1,8 @@
-/* Seletor Universal
+/* 
+
+###SELETORES###
+
+Seletor Universal
 * {
 	border: 1px red solid;
 }
@@ -39,7 +43,43 @@ h1+p {
 }
 formata o elemento determinado seguinte no cado do 
 h1 ele formata o proximo p
-*/
+
 h1~p{
 	color: pink;
 }
+*/
+
+/* HERANÇA E ESPECIFICIDADE 
+
+border e background não são herdados 
+
+No caso de dois seletores com o mesmo nome a prioridade é o ultimo com excessão ao 
+uso da palavra !important
+
+#paragrafo {
+	color: green !important;
+}
+
+#paragrafo {
+	color: blue;
+}
+
+Se um seletor for mais específico que outro, a regra mais específica
+será aplicada
+
+* {	
+	color: red;
+}
+
+h2 {
+	color: blue;
+}
+
+h2.verde {
+	color: green;
+}
+
+h2#amarelo {
+	color: yellow;
+}
+*/
