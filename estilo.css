@@ -105,7 +105,7 @@ h2#amarelo {
  	width: 200px;
  	height: 40px;
  	display: block;
- 	background: url(imagens/menu.png);
+ 	background: #f7b600 url(imagens/menu.png);
  	text-decoration: none;
  	text-indent: 40px;
  	line-height: 40px;
@@ -113,7 +113,16 @@ h2#amarelo {
  	font-weight: bolder;
  }
 
- a:hover {
+ a:hover, .selecionado a {
  	background-position: right bottom;
+ 	background-color: #f99200;
+ 	color: #fff;
+ }
+
+ #home #navegacao .home a,
+ #sobre #navegacao .sobre a,
+ #servicos #navegacao .servicos a{
+ 	background-position: right bottom;
+ 	background-color: #f99200;
  	color: #fff;
  }
