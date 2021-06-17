@@ -1,0 +1,45 @@
+/* Seletor Universal
+* {
+	border: 1px red solid;
+}
+***********************************
+h1 {
+	color: green;
+}
+
+.verde {
+	color: green
+}
+
+p.verde {
+	color: green;
+}
+
+#cabecalho {
+	border: 1px solid red;
+
+
+/*Seletor de filho
+li>a {
+	color: red;
+	text-decoration: none;
+}
+formata somente as tags filhas diretas do elemnto
+***************************
+
+Seletor de descendentes
+p a {
+	color: green;
+}
+formata as tags que estão dentro de elemento nao precisando ser direta
+
+Seletor Irmão
+h1+p {
+	color: red;
+}
+formata o elemento determinado seguinte no cado do 
+h1 ele formata o proximo p
+*/
+h1~p{
+	color: pink;
+}
