@@ -216,10 +216,11 @@ body{
 }
 
 #container {
-    width: 85%;
+    width: 960px;
     margin: 0 auto;
-    background: #fff;
-    min-width: 600px;
+    background: #fff url(imagens/coluna.png) repeat-y;
+    min-width: 720px;
+
 }
 
 #marca {
@@ -242,6 +243,7 @@ body{
 img.img-noticia {
     width: 96%;
     padding: 2%;
+    max-width: 600px;
 }
 
 #conteudo-secundario {
@@ -262,7 +264,6 @@ img.img-noticia {
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #d1d1d1;
 }
 
 #navegacao ul {
