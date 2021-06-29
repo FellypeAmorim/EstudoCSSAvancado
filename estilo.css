@@ -208,7 +208,7 @@ ul #atual a {
 }
 */
 
-/* ####Layouts#### */
+/* ####Layouts#### 
 
 body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -291,3 +291,42 @@ img.img-noticia {
 
 }
 */
+
+/* #### Estilizando Tabelas #### */
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;/*separate*/
+}
+
+th, td {
+    padding: 7px;
+
+
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+tr.alternado {
+    background-color: #c1c1c1;
+}
+
+.valor {
+    text-align: right;
+}
+
+tr:hover {
+    background-color: #c3e6e5;
+}
